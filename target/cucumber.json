@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5762556393,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to create and publish an App",
+        "description": "",
+        "id": "automating-gocanvas-webpage;user-should-be-able-to-create-and-publish-an-app",
+        "after": [
+          {
+            "result": {
+              "duration": 126163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1751875407,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in using valid username and password",
+            "match": {
+              "location": "SeleniumChanllengeStepDefs.user_logs_in_using_valid_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5237511726,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on Create App",
+            "match": {
+              "location": "SeleniumChanllengeStepDefs.the_user_clicks_on_Create_App()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 555238705,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user selects the template \"Blank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blank\"",
+                  "offset": 30
+                }
+              ],
+              "location": "SeleniumChanllengeStepDefs.the_user_selects_the_template(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3180261250,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "fills all required field information",
+            "match": {
+              "location": "SeleniumChanllengeStepDefs.fills_all_required_field_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2202924221,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user saves the changes to template",
+            "match": {
+              "location": "SeleniumChanllengeStepDefs.the_user_saves_the_changes_to_template()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 584271751,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be able to publish the template",
+            "match": {
+              "location": "SeleniumChanllengeStepDefs.the_user_should_be_able_to_publish_the_template()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@challenge"
+          }
+        ]
+      }
+    ],
+    "name": "Automating gocanvas webpage",
+    "description": "",
+    "id": "automating-gocanvas-webpage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/gocanvas/features/SeleniumChallenge.feature",
+    "tags": []
+  }
+]
